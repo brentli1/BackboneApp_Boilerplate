@@ -10,13 +10,10 @@
 
 	"app" : {
 		"scripts" : [
-			"./assets/js/app/**/*.js"
+			"./assets/js/app-js/**/*.js"
 		],
 		"styles" : [
-
-		],
-		"templates" : [
-
+			"./assets/sass/**/*.scss"
 		]
 	}
 }
