@@ -10,5 +10,5 @@ gulp.task('styles', function () {
             browsers: ['last 2 versions', 'Explorer >= 8'],
             cascade: false
         }))
-        .pipe(gulp.dest('./assets/build'))
+        .pipe(gulp.dest('./assets/build/css'))
 });
