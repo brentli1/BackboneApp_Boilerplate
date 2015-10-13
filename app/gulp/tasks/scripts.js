@@ -6,7 +6,7 @@ var gulp    = require('gulp'),
 function concata(src, filename){
     return gulp.src(src)
         .pipe(concat(filename))
-        .pipe(gulp.dest('./assets/build'));
+        .pipe(gulp.dest('./assets/build/js'));
 }
 
 gulp.task('scripts:vendor', function(){
