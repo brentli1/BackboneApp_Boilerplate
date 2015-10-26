@@ -3,6 +3,7 @@
 		"scripts" : [
 			"./assets/js/vendor/jquery.js",
 			"./assets/js/vendor/underscore.js",
+			"./assets/js/vendor/handlebars.js",
 			"./assets/js/vendor/backbone.js",
 			"./assets/js/vendor/backbone.marionette.js"
 		]
